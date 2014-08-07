@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.scorpio4</groupId>
         <artifactId>scorpio4</artifactId>
-        <version>0.11-SNAPSHOT</version>
+        <version>0.12-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -43,7 +43,6 @@
     <scm>
         <url>github.com/scorpio4/scorpio4utilities.git</url>
         <connection>scm:git:https://github.com/scorpio4/scorpio4utilities.git</connection>
-        <tag>scorpio4-0.06</tag>
     </scm>
 
     <properties>
@@ -90,6 +89,11 @@
             <groupId>com.scorpio4</groupId>
             <artifactId>scorpio4core</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.6</version>
         </dependency>
 
     </dependencies>
