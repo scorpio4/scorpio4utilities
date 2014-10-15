@@ -23,6 +23,7 @@ public class JDBCHelper {
 	}
 
 	public static Object driver(String driver) {
+		if (driver.startsWith("bean:")) driver = driver.substring(5);
 		try {
 			return Class.forName(driver).newInstance();
 		} catch (InstantiationException e) {
